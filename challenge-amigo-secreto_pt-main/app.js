@@ -1,11 +1,6 @@
-//O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
 let lista = [];
 let nome;
-
-// busca o elemento que possui o id igual a "listaAmigos"
-//  Que é uma lista <ul> onde os nomes serão adicionados
 let listaAmigos = document.getElementById("listaAmigos");
-//console.log(lista);
 
 // Adiciona nome à lista de amigos, exibe na tela e limpa o campo de input.
 function adicionarAmigo() {
@@ -24,10 +19,24 @@ function adicionarAmigo() {
   limparCampo();
 }
 
+function sortearAmigo() {
+  limparListaNomes();
+  nomeAleatorio = Math.floor(Math.random() * lista.length);
+  let resultado = lista[nomeAleatorio];
+  let nomeSorteado = document.createElement("li");  
+  listaAmigos.appendChild(nomeSorteado);
+  nomeSorteado.textContent = `O nome sorteado é: ${resultado}`;  
+  console.log(`${resultado}`) ;  
+  } 
+adicionarAmigo();
 //limpa campo após inserir nome
 function limparCampo() {
   nome = document.querySelector(".input-name");
   nome.value = "";
 }
 
-adicionarAmigo();
+function limparListaNomes() {
+  listaAmigos.innerHTML = ''
+ }
+
+ document.querySelector(".button-draw").addEventListener("click", sortearAmigo)
