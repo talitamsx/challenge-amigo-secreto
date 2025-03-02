@@ -16,6 +16,10 @@ O objetivo poroposto foi desenvolver um jogo de **Amigo Secreto**, no qual os pa
 ## Link do Jogo
 https://challenge-amigo-secreto-pied-xi.vercel.app/
 
+*Uma prévia de como o jogo se parece.*
+
+<img src="https://github.com/user-attachments/assets/3f6d36d1-e442-4ea2-8453-99f91112f697" alt="Preview do Jogo" width="600"/>
+
 ## 🛠 Tecnologias Utilizadas  
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
