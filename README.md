@@ -1,6 +1,6 @@
 # Jogo do Amigo Secreto
 
-Este projeto faz parte de um desafio proposto pelo curso **ONE - Next Education Oracle**, em parceria com a **Alura**.  
+Este projeto faz parte de um desafio proposto pelo curso **ONE - Oracle Next Education **, em parceria com a **Alura**.  
 
 O objetivo poroposto foi desenvolver um jogo de **Amigo Secreto**, no qual os participantes são sorteados de forma aleatória. O jogo seleciona nomes de maneira dinâmica, garantindo um sorteio justo e divertido.  
 
